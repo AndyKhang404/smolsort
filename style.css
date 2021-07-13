@@ -1,0 +1,153 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #151515;
+	color: #a5a5a5;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#ctnr1,#ctnr2,#ctnr3,#mode-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ctnr1{
+	height: 10%;
+	width: 100%;
+}
+
+#ctnr2{
+	height: 5%;
+	width: 100%;
+}
+
+#ctnr3{
+	flex-direction: column;
+	height: 85%;
+	width: 100%;
+}
+
+#num-input{
+	width: 30%;
+	height: 40%;
+	border: none;
+	background-color: #090909;
+	color: #a5a5a5;
+	margin: 1%;
+	text-indent: 1%;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#num-input:focus{
+	outline: none;
+}
+
+#text-input{
+	width: 64%;
+	height: 40%;
+	border: none;
+	background-color: #090909;
+	color: #a5a5a5;
+	margin: 1%;
+	text-indent: 1%;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#text-input:focus{
+	outline: none;
+}
+
+#insert-btn{
+	width: 81%;
+	height: 80%;
+	border: none;
+	background-color: #21db66;
+	color: #000000;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#reset-btn{
+	width: 15%;
+	height: 80%;
+	border: none;
+	background-color: #ea5347;
+	color: #000000;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#insert-btn:hover,#insert-btn:active{
+	background-color: #1cba57;
+}
+
+#reset-btn:hover,#reset-btn:active{
+	background-color: #d64c41;
+}
+
+#error-log{
+	color: #e71a1a;
+	margin-top: 0;
+	margin-bottom: 1%;
+	font-weight: bold;
+}
+
+#entry-output{
+	height: 86%;
+	width: 96%;
+	margin: 0;
+	padding: 0;
+	background-color: #090909;
+	overflow: auto;
+}
+
+.entry{
+	width: 100%;
+	height: 8%;
+	display: flex;
+	align-items: center;
+}
+
+.entry-num{
+	width: 34%;
+	text-indent: 2%;
+}
+
+.entry-text{
+	width: 60%;
+}
+
+.trash-div{
+	width: 6%;
+	display: flex;
+	justify-content: center;
+}
+
+.trash-btn{
+	font-weight: bold;
+	font-size: large;
+	color: #e71a1a;
+	background-color: #090909;
+	border: none;
+}
+
+#mode-btn{
+	height: 4%;
+	width: 96%;
+}
+
+#asc-btn,#dsc-btn{
+	border: none;
+	color: #a5a5a5;
+	background-color: #151515;
+	font-family: 'Source Code Pro', monospace;
+	margin: 1%;
+	padding: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#asc-btn:hover,#dsc-btn:hover{
+	text-decoration: underline;
+}

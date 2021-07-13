@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+	<title>Smolsort</title>
+</head>
+<body>
+	<div id="ctnr1">
+		<input type="text" id="num-input" placeholder="Number"><input type="text" id="text-input" placeholder="Additional text">
+	</div>
+	<div id="ctnr2">
+		<button onclick="create_entry()" id="insert-btn">Insert</button><button onclick="reset()" id="reset-btn">Reset</button>
+	</div>
+	<div id="ctnr3">
+		<p id="error-log" style="display: none;"></p>
+		<div id="mode-btn"><button onclick="ascending()" id="asc-btn">Ascending</button><button onclick="descending()" id="dsc-btn">Descending</button></div>
+		<ul id="entry-output"></ul>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
